@@ -1,0 +1,296 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A05AD4981DFFA956009629E2 /* Rtp.c in Sources */ = {isa = PBXBuildFile; fileRef = A05AD4931DFFA956009629E2 /* Rtp.c */; };
+		A05AD4991DFFA956009629E2 /* Rtsp.c in Sources */ = {isa = PBXBuildFile; fileRef = A05AD4951DFFA956009629E2 /* Rtsp.c */; };
+		A05AD49B1DFFA983009629E2 /* Main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A05AD49A1DFFA983009629E2 /* Main.cpp */; };
+		A0F329AD1DFFFC82000D8E99 /* RtspServer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A0F329AB1DFFFC82000D8E99 /* RtspServer.cpp */; };
+		A0F329B21E00EBBB000D8E99 /* RtspClientConnection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A0F329B01E00EBBB000D8E99 /* RtspClientConnection.cpp */; };
+		A0F329B51E00F844000D8E99 /* RtspMessage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A0F329B31E00F844000D8E99 /* RtspMessage.cpp */; };
+		A0F329D31E026748000D8E99 /* RtspUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A0F329D21E026748000D8E99 /* RtspUtils.cpp */; };
+		A0F329D61E02677B000D8E99 /* NALUnit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A0F329D41E02677B000D8E99 /* NALUnit.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A05AD4861DFFA93B009629E2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A05AD4881DFFA93B009629E2 /* RtspServer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = RtspServer; sourceTree = BUILT_PRODUCTS_DIR; };
+		A05AD4931DFFA956009629E2 /* Rtp.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Rtp.c; sourceTree = "<group>"; };
+		A05AD4941DFFA956009629E2 /* Rtp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rtp.h; sourceTree = "<group>"; };
+		A05AD4951DFFA956009629E2 /* Rtsp.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Rtsp.c; sourceTree = "<group>"; };
+		A05AD4961DFFA956009629E2 /* Rtsp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rtsp.h; sourceTree = "<group>"; };
+		A05AD49A1DFFA983009629E2 /* Main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Main.cpp; sourceTree = "<group>"; };
+		A0F329AB1DFFFC82000D8E99 /* RtspServer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RtspServer.cpp; sourceTree = "<group>"; };
+		A0F329AC1DFFFC82000D8E99 /* RtspServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RtspServer.h; sourceTree = "<group>"; };
+		A0F329B01E00EBBB000D8E99 /* RtspClientConnection.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RtspClientConnection.cpp; sourceTree = "<group>"; };
+		A0F329B11E00EBBB000D8E99 /* RtspClientConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RtspClientConnection.h; sourceTree = "<group>"; };
+		A0F329B31E00F844000D8E99 /* RtspMessage.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RtspMessage.cpp; sourceTree = "<group>"; };
+		A0F329B41E00F844000D8E99 /* RtspMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RtspMessage.h; sourceTree = "<group>"; };
+		A0F329BC1E011EC6000D8E99 /* RtspUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RtspUtils.h; sourceTree = "<group>"; };
+		A0F329D21E026748000D8E99 /* RtspUtils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RtspUtils.cpp; sourceTree = "<group>"; };
+		A0F329D41E02677B000D8E99 /* NALUnit.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NALUnit.cpp; sourceTree = "<group>"; };
+		A0F329D51E02677B000D8E99 /* NALUnit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NALUnit.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A05AD4851DFFA93B009629E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A05AD47F1DFFA93B009629E2 = {
+			isa = PBXGroup;
+			children = (
+				A05AD48A1DFFA93B009629E2 /* RtspServer */,
+				A05AD4891DFFA93B009629E2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A05AD4891DFFA93B009629E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A05AD4881DFFA93B009629E2 /* RtspServer */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A05AD48A1DFFA93B009629E2 /* RtspServer */ = {
+			isa = PBXGroup;
+			children = (
+				A0F329D41E02677B000D8E99 /* NALUnit.cpp */,
+				A0F329D51E02677B000D8E99 /* NALUnit.h */,
+				A05AD49A1DFFA983009629E2 /* Main.cpp */,
+				A05AD4931DFFA956009629E2 /* Rtp.c */,
+				A05AD4941DFFA956009629E2 /* Rtp.h */,
+				A05AD4951DFFA956009629E2 /* Rtsp.c */,
+				A05AD4961DFFA956009629E2 /* Rtsp.h */,
+				A0F329AC1DFFFC82000D8E99 /* RtspServer.h */,
+				A0F329AB1DFFFC82000D8E99 /* RtspServer.cpp */,
+				A0F329B11E00EBBB000D8E99 /* RtspClientConnection.h */,
+				A0F329B01E00EBBB000D8E99 /* RtspClientConnection.cpp */,
+				A0F329B41E00F844000D8E99 /* RtspMessage.h */,
+				A0F329B31E00F844000D8E99 /* RtspMessage.cpp */,
+				A0F329BC1E011EC6000D8E99 /* RtspUtils.h */,
+				A0F329D21E026748000D8E99 /* RtspUtils.cpp */,
+			);
+			path = RtspServer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A05AD4871DFFA93B009629E2 /* RtspServer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A05AD48F1DFFA93B009629E2 /* Build configuration list for PBXNativeTarget "RtspServer" */;
+			buildPhases = (
+				A05AD4841DFFA93B009629E2 /* Sources */,
+				A05AD4851DFFA93B009629E2 /* Frameworks */,
+				A05AD4861DFFA93B009629E2 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RtspServer;
+			productName = RtspServer;
+			productReference = A05AD4881DFFA93B009629E2 /* RtspServer */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A05AD4801DFFA93B009629E2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = MOMO;
+				TargetAttributes = {
+					A05AD4871DFFA93B009629E2 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A05AD4831DFFA93B009629E2 /* Build configuration list for PBXProject "RtspServer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A05AD47F1DFFA93B009629E2;
+			productRefGroup = A05AD4891DFFA93B009629E2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A05AD4871DFFA93B009629E2 /* RtspServer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A05AD4841DFFA93B009629E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A05AD49B1DFFA983009629E2 /* Main.cpp in Sources */,
+				A0F329AD1DFFFC82000D8E99 /* RtspServer.cpp in Sources */,
+				A0F329D31E026748000D8E99 /* RtspUtils.cpp in Sources */,
+				A0F329B21E00EBBB000D8E99 /* RtspClientConnection.cpp in Sources */,
+				A05AD4981DFFA956009629E2 /* Rtp.c in Sources */,
+				A0F329B51E00F844000D8E99 /* RtspMessage.cpp in Sources */,
+				A05AD4991DFFA956009629E2 /* Rtsp.c in Sources */,
+				A0F329D61E02677B000D8E99 /* NALUnit.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A05AD48D1DFFA93B009629E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A05AD48E1DFFA93B009629E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A05AD4901DFFA93B009629E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A05AD4911DFFA93B009629E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A05AD4831DFFA93B009629E2 /* Build configuration list for PBXProject "RtspServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A05AD48D1DFFA93B009629E2 /* Debug */,
+				A05AD48E1DFFA93B009629E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A05AD48F1DFFA93B009629E2 /* Build configuration list for PBXNativeTarget "RtspServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A05AD4901DFFA93B009629E2 /* Debug */,
+				A05AD4911DFFA93B009629E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A05AD4801DFFA93B009629E2 /* Project object */;
+}
